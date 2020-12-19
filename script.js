@@ -1,4 +1,7 @@
-var database = [
+function myFunction() {
+    alert("Account Access is Coming Soon!");
+ }
+/* var database = [
     {
         username: "chunk",
         password: "lovinit",
@@ -16,8 +19,7 @@ var newsFeed = [
     }
 ];
 
-//var userNamePrompt = prompt("What's your username?");
-//var passwordPrompt = prompt("What's your password?");
+var userNamePrompt = prompt("What's your username?");var passwordPrompt = prompt("What's your password?");
 
 function signIn(username, password) {
     if (username === database[0].username && password === database[0].password) {
@@ -27,4 +29,4 @@ function signIn(username, password) {
     }
 }
 
-signIn(userNamePrompt, passwordPrompt);
+signIn(userNamePrompt, passwordPrompt); */
