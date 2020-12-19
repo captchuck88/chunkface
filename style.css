@@ -1,0 +1,58 @@
+@font-face {
+    font-family: Goonies;
+    src: url(Goonies.ttf);
+}
+body {
+    margin: auto;
+    background-color: #550000;
+    font-family: Goonies;
+    color: #fff;
+}
+header {
+    color: #fff;
+    font-size: 2rem;
+    padding: 20px 0px 5px 20px;
+    text-shadow: 5px 5px rgb(102, 1, 1);
+    background: #000 url(images/background-goonies-map2.png) no-repeat center;
+    width: 100%;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+.chunkhead {
+    float: left;
+}
+nav {
+    background-color: #000;
+    border-top: 3px solid #a25c5e;
+    border-bottom: 3px solid #a25c5e;
+}
+.main-nav {
+    display: flex;
+    list-style: none;
+    font-size: 1.2em;
+    margin: 0;
+}
+.push {
+    margin-left: auto;
+}
+@media only screen and (max-width: 600px) {
+    .main-nav {
+        font-size: 1em;
+        padding: 0;
+    }
+}
+li {
+    padding: 20px;
+}
+li a:hover {
+    color: #fae1a0;
+    text-decoration: underline overline;
+}
+a {
+    color: #fff;
+    text-decoration: none;
+}
+
+
